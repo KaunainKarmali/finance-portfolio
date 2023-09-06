@@ -1,0 +1,8 @@
+<ul>
+  <% @accounts.each do |a| %>
+    <li>
+      <span><%= a["type"] %></span>
+      <span><%= a["number"] %></span>
+    </li>
+  <% end %>
+</ul>
